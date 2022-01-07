@@ -704,8 +704,8 @@ function talk () {
             statusbar3.setPosition(73, 6)
         } else if (cats.tileKindAt(TileDirection.Center, assets.tile`myTile137`)) {
             if (game.ask("Do you want to reset every thing")) {
-                game.reset()
                 blockSettings.clear()
+                game.reset()
             }
         } else {
             jump()
