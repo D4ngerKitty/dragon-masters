@@ -507,7 +507,7 @@ statusbars.onZero(StatusBarKind.bosshp, function (status) {
     statusbars.getStatusBarAttachedTo(StatusBarKind.Magic, cats).value = statusbars.getStatusBarAttachedTo(StatusBarKind.Magic, cats).max
     cats.setFlag(SpriteFlag.Ghost, false)
     cats.setFlag(SpriteFlag.Invisible, false)
-    story.printCharacterText("You saved the world of cats!!!")
+    story.printCharacterText("You saved the world of cats!!")
     info.setLife(20)
     scene.cameraFollowSprite(cats)
     mySprite7.destroy()
